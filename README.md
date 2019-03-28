@@ -1,8 +1,8 @@
 # FIleScrapper
 Scrapes and downloads files from a web link
 
-Example
-
+### Usage
+```js
 const Scrappy = require('./lib/scrappy');
 
 const scrap = new Scrappy({
@@ -18,3 +18,4 @@ const scrap = new Scrappy({
 });
 
 scrap.start();
+```
